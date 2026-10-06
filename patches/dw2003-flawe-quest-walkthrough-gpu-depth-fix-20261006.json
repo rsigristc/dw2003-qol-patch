@@ -1,0 +1,489 @@
+{
+  "format": "BPS",
+  "source": {
+    "sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+    "crc32": "007df18e",
+    "size": 692146560
+  },
+  "target": {
+    "sha256": "b3aa0b474abbfaea7713d35e69de019a5d16b945c94e651e8d70285a60bda4c4",
+    "crc32": "673c4293",
+    "size": 693562464
+  },
+  "changed_bytes": 1696133,
+  "patch_size": 1820953,
+  "patch_sha256": "d1e844a9eecd02f4e607d1d59bb6ad972e3ac9f44aa1015e5549af71b9735fd6",
+  "metadata": {
+    "schema": "ddw3-mod-v1",
+    "name": "dw2003-flawe-quest-walkthrough-gpu-depth-fix-20261006",
+    "base_sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+    "edits": [
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_combined"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_guide_localized"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_levelup_restore"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "initial_pack_customizer_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "battle_ui_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "progress_ui_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "ntsc60"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fixed_field_moves"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "improved_hp_proxy"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "uncapped_dv_exp"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_intro"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "postgame_no_epics"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_baronmon"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_admin_center"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "skip_folder_bag"
+      }
+    ],
+    "files": [
+      {
+        "file": "virtual disc",
+        "description": "Flawe’s Mod 2.0",
+        "target_size": 692489952
+      },
+      {
+        "description": "Flawe guide: five PAL languages",
+        "target_size": 692628720,
+        "files": [
+          {
+            "locale": "eng",
+            "entries": 468,
+            "unique_texts": 327,
+            "translated_unique": 282,
+            "size": 22910,
+            "sha256": "3936c445e34a119e3abac50e1ab3fc060e64cef5424b68131d684f1e856b77e6",
+            "file_id": 178,
+            "lba": 294426,
+            "file": "ESGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "fra",
+            "entries": 468,
+            "unique_texts": 327,
+            "translated_unique": 282,
+            "size": 22898,
+            "sha256": "0ab6ac589ea0a7e022a672a3201ac7a573719dc2071801938974a9d5e3dd5818",
+            "file_id": 179,
+            "lba": 294438,
+            "file": "FSGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "ita",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 22734,
+            "sha256": "2d8882f0852fe9eac29ae7de94a17893ba44126ad8e8430486bfa3a297f95857",
+            "file_id": 180,
+            "lba": 294450,
+            "file": "ISGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "ger",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 22287,
+            "sha256": "02614539a4e3df01264e6bb00e11f8c00ff056dfc91e6862a4c74b173d141d30",
+            "file_id": 181,
+            "lba": 294462,
+            "file": "DSGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "spn",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 23175,
+            "sha256": "4508eaba24c1cd88e7ebdb0d1aa9eabb619f8b5f6c7e42753ccf7544f8fc86d7",
+            "file_id": 182,
+            "lba": 294473,
+            "file": "SSGUIDE.BIN",
+            "original_menu_preserved": true
+          }
+        ]
+      },
+      {
+        "description": "Initial Pack Customizer: A/B/C + D",
+        "files": [
+          {
+            "file": "AAA/PRO/STPLNMET.PRO",
+            "alias": "STPACKD.PRO",
+            "file_id": 518,
+            "lba": 294485,
+            "size": 33968,
+            "sha256": "0ccb202428bf8319e24329f5c1f78cbcb75bad7b79ef628d1504e09b988e852f"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESNAMEET.BIN",
+            "alias": "ESCPACK.BIN",
+            "file_id": 143,
+            "lba": 294502,
+            "size": 1326,
+            "sha256": "420b12f0972cdb3c58bc5f7a6a5f77ecc69170e8863ae2d3c6a2adb336ccfce9"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSNAMEET.BIN",
+            "alias": "FSCPACK.BIN",
+            "file_id": 144,
+            "lba": 294503,
+            "size": 1393,
+            "sha256": "8b58b1fa4203ff3e05efbe06f555d02d7324c5f8111c753a17050ca620b2a695"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISNAMEET.BIN",
+            "alias": "ISCPACK.BIN",
+            "file_id": 145,
+            "lba": 294504,
+            "size": 1297,
+            "sha256": "8e87458efadd73e0f26181a13904c1950e7ce70d1de054bd28ebc8c6a5264f4b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSNAMEET.BIN",
+            "alias": "DSCPACK.BIN",
+            "file_id": 146,
+            "lba": 294505,
+            "size": 1314,
+            "sha256": "3b197b4d519c4dbc3630544d5a056ba9dcdc1ba4af4a89738ab7632e27957ef2"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSNAMEET.BIN",
+            "alias": "SSCPACK.BIN",
+            "file_id": 147,
+            "lba": 294506,
+            "size": 1361,
+            "sha256": "c9f0c24a73248495cb36eec6ee87fe026f59c85efb0c4433d5779bacb30accb6"
+          },
+          {
+            "file": "AAA/PRO/WSTAG212.PRO",
+            "alias": null,
+            "file_id": 536,
+            "lba": 294507,
+            "size": 14304,
+            "sha256": "17b1813996c10e822fd53f7f587d7f250d710b4db13d92488529d0495af2efeb"
+          }
+        ],
+        "target_size": 692696928,
+        "original_packs_preserved": true,
+        "custom_choices": 8,
+        "custom_arrival": true
+      },
+      {
+        "description": "Battle UI Plus: HP, MP, power and attribute",
+        "files": [
+          {
+            "file": "AAA/PRO/FIGHTSTG.PRO",
+            "alias": "FIGHTUI.PRO",
+            "file_id": 359,
+            "lba": 294514,
+            "size": 170032,
+            "sha256": "9adb1155970585ae15e8de4b577a15b68888dca5608311f90cfad352dd8885aa"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESMFIGHT.BIN",
+            "alias": "ESBTLUI.BIN",
+            "file_id": 129,
+            "lba": 294598,
+            "size": 2550,
+            "sha256": "946b70487707b92fca420fabd8d0def63893b013e85eb8e85b388ad74dcedfd0"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSMFIGHT.BIN",
+            "alias": "FSBTLUI.BIN",
+            "file_id": 130,
+            "lba": 294600,
+            "size": 2959,
+            "sha256": "ad648986938a9653c543f9c3a133473a378c4ee01187fb30125fb62a40ea2e8b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISMFIGHT.BIN",
+            "alias": "ISBTLUI.BIN",
+            "file_id": 131,
+            "lba": 294602,
+            "size": 2899,
+            "sha256": "7272bf2b058b4e384fea9f367368ad2319c6a0df2cd231d3274c8334ea203a9b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSMFIGHT.BIN",
+            "alias": "DSBTLUI.BIN",
+            "file_id": 132,
+            "lba": 294604,
+            "size": 2745,
+            "sha256": "7f5bb0e8cbf4583ae9efa9d301eaed34e84e6afff2dcb3a416be5deb8c7d6121"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSMFIGHT.BIN",
+            "alias": "SSBTLUI.BIN",
+            "file_id": 133,
+            "lba": 294606,
+            "size": 3020,
+            "sha256": "26136aa0e4c4c40392d3bef0fb69d8a8c5415061bf294fb764f7991fa16ca822"
+          }
+        ],
+        "target_size": 692918016,
+        "reserved_heap_start": 2148194304,
+        "reserved_bytes": 8192
+      },
+      {
+        "description": "Progress UI Plus: next EXP and DV EXP",
+        "files": [
+          {
+            "file": "AAA/PRO/FIELDSTG.PRO",
+            "file_id": 358,
+            "lba": 294608,
+            "size": 125120,
+            "sha256": "3743d2ec8e7977724e02f5872a2f5741e961786aa32d5c7bee40c8f09519f352"
+          },
+          {
+            "file": "AAA/PRO/STGDGLAB.PRO",
+            "file_id": 492,
+            "lba": 294670,
+            "size": 60160,
+            "sha256": "d15d1280788186ac3e452b4476f6b8263a6125126f17bce672e10a74df1d200b"
+          },
+          {
+            "file": "AAA/PRO/STFGTREP.PRO",
+            "file_id": 465,
+            "lba": 294700,
+            "size": 29984,
+            "sha256": "04e2700fe546d7e28d0c1310a9070e1b16b0659b4d16d0bfb828618ec149a10b"
+          },
+          {
+            "file": "AAA/PRO/STSTATUS.PRO",
+            "file_id": 519,
+            "lba": 294715,
+            "size": 116080,
+            "sha256": "d4a24f4f4cb65c2d55204d092f9de2c3258d203533f17ae68fd9a3962a223687"
+          },
+          {
+            "file": "AAA/PRO/STITSHOP.PRO",
+            "file_id": 517,
+            "lba": 294772,
+            "size": 45008,
+            "sha256": "93d83f866e5f98cd642f343ea1a9e36def12a73a59a2dbbd98763734d84a8449"
+          },
+          {
+            "file": "AAA/PRO/STGMCARD.PRO",
+            "file_id": 494,
+            "lba": 294794,
+            "size": 24016,
+            "sha256": "932c8577a18b732b4b75c54e16283ceef74dddfa6e37133156ec7282a524e8b5"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESFGTRPT.BIN",
+            "file_id": 87,
+            "lba": 294806,
+            "size": 30276,
+            "sha256": "322c04bbc7408263454dc1cce23e1ece433dfe2c18a0f3bbb2f14951e7f07770"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSFGTRPT.BIN",
+            "file_id": 88,
+            "lba": 294821,
+            "size": 30544,
+            "sha256": "89a1ebcf07acac96e23bfbce5ed4b8d5a02a970f9a01342d554a9d39ba980e6f"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISFGTRPT.BIN",
+            "file_id": 89,
+            "lba": 294836,
+            "size": 30337,
+            "sha256": "714e111fbc5c0d0c7f2e429ba35e40ff67eaedc7d8f213656edf6b432f34d06b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSFGTRPT.BIN",
+            "file_id": 90,
+            "lba": 294851,
+            "size": 28953,
+            "sha256": "728f5efb6639e613648165c61ba55eca22b6c3576590f1eaa53e3ad1a5d359fb"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSFGTRPT.BIN",
+            "file_id": 91,
+            "lba": 294866,
+            "size": 31124,
+            "sha256": "7f048a0315b5584b7215c82922aaa997ede4534f85ec5815d1164b257fa5960b"
+          }
+        ],
+        "target_size": 693562464
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 608000,
+        "size": 24,
+        "description": "Flawe: HP/MP al subir de nivel"
+      },
+      {
+        "file": "AAA/PRO/STFGTREP.PRO",
+        "offset": 13876,
+        "size": 4,
+        "description": "Flawe: HP/MP al subir de nivel"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 316588,
+        "size": 8,
+        "description": "NTSC 60 Hz"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 56164,
+        "size": 1,
+        "description": "Fixed Field Moves"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 117852,
+        "size": 27,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 119036,
+        "size": 27,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 203638,
+        "size": 1,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 203650,
+        "size": 1,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "AAA/PRO/STFGTREP.PRO",
+        "offset": 15744,
+        "size": 56,
+        "description": "Uncapped Digivolution EXP"
+      },
+      {
+        "file": "AAA/PRO/STDWTITL.PRO",
+        "offset": 15424,
+        "size": 2,
+        "description": "Fast intro"
+      },
+      {
+        "file": "AAA/PRO/STPLNMET.PRO",
+        "offset": 21960,
+        "size": 1,
+        "description": "Fast intro"
+      },
+      {
+        "file": "AAA/PRO/WSTAG200.PRO",
+        "offset": 64,
+        "size": 1,
+        "description": "Fast intro"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 24228,
+        "size": 8,
+        "description": "Postgame fights without epic weapons"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3724,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3736,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3764,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3780,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG325.PRO",
+        "offset": 2336,
+        "size": 2,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG325.PRO",
+        "offset": 2344,
+        "size": 2,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG620.PRO",
+        "offset": 1504,
+        "size": 1,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG270.PRO",
+        "offset": 4204,
+        "size": 1,
+        "description": "Skip Folder Bag cutscene"
+      }
+    ],
+    "engine": "verified recipes; virtual disc layout; additional fields checked for conflicts; EDC/ECC regenerated"
+  },
+  "original_unchanged": true,
+  "rom_output_created": false
+}

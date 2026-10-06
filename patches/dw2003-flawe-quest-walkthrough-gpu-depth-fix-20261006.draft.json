@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "name": "dw2003-flawe-quest-walkthrough-gpu-depth-fix-20261006",
+  "base_sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+  "edits": [
+    {
+      "kind": "builtin_mod",
+      "id": "flawe_combined"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "flawe_guide_localized"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "flawe_levelup_restore"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "initial_pack_customizer_plus"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "battle_ui_plus"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "progress_ui_plus"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "ntsc60"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "fixed_field_moves"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "improved_hp_proxy"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "uncapped_dv_exp"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "fast_intro"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "postgame_no_epics"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "fast_baronmon"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "fast_admin_center"
+    },
+    {
+      "kind": "builtin_mod",
+      "id": "skip_folder_bag"
+    }
+  ]
+}
