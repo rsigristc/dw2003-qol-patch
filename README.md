@@ -1,5 +1,6 @@
-# Digimon World 2003 — Quality of Life Patch
-<img width="400" height="117" alt="image" src="https://github.com/user-attachments/assets/49527f33-42cb-4329-b4cb-51d1512a8e5e" />
+# Digimon World 2003: Harmony
+
+![Harmony logo](assets/harmony-logo.png)
 
 A community mod compilation for **Digimon World 2003 (Europe / PAL, SLES-03936)**, assembled and extended by **rsigrist**. Includes Flawe's Mod 2.0, guiomatos' Initial Pack Customizer enhancements, markisha64's patches, and additional interface and progression improvements.
 
@@ -10,7 +11,7 @@ A community mod compilation for **Digimon World 2003 (Europe / PAL, SLES-03936)*
 ## How to patch
 
 1. Back up your original disc dump and memory cards.
-2. Download `dw2003-flawe-quest-walkthrough-gpu-depth-fix-20261006.bps` from Releases or the `patches/` folder.
+2. Download `dw2003-harmony-betav1.bps` from Releases or the `patches/` folder.
 3. Verify your **unmodified European BIN** matches the source below. Apply this complete patch directly to the original BIN, with no earlier mods applied. Do not patch the CUE file, a compressed image, or an already patched BIN.
 4. Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), select your original BIN as the ROM file, and the BPS as the patch file. Apply the patch with checksum verification enabled and save the output to a new file. Large disc images may require a desktop BPS-compatible patcher if your browser runs out of memory.
 5. Keep your original CUE and update its `FILE` entry to reference the new BIN filename, preserving its track definitions. Load that CUE in your emulator.
@@ -33,14 +34,87 @@ Get-FileHash -Algorithm SHA256 -LiteralPath 'Digimon World 2003 (Europe).bin'
 
 ### Expected patched BIN
 
-- Size: **693,562,464 bytes**.
-- CRC32: `673c4293`.
-- SHA-256: `b3aa0b474abbfaea7713d35e69de019a5d16b945c94e651e8d70285a60bda4c4`.
-- BPS SHA-256: `d1e844a9eecd02f4e607d1d59bb6ad972e3ac9f44aa1015e5549af71b9735fd6`.
+- Size: **694,863,120 bytes**.
+- CRC32: `59c3ce5b`.
+- SHA-256: `2b896a24dcec4d47e31dd04405e72bd38640dc9cc66bbf113a8da17ba1e920fb`.
+- BPS SHA-256: `9e816a8e2c40fb85eb161f6f5e25fe48f08a02b8925fa5316cc939a93cb6a8c6`.
 
 The JSON manifest records build metadata and hashes. The draft JSON records the build recipe; neither JSON file is a patcher input.
 
-## Quality of life changes
+## Second Beta v1.0 — Digimon World 2003: Harmony
+
+The project is now **Digimon World 2003: Harmony**. Work continues to make the game more enjoyable and approachable for everyone, with training without RNG, faster loading and saving, new items, improved systems, and fixes from the previous beta.
+
+### Training rebuilt
+
+- Remove RNG from training results. Base stat gains are guaranteed even if you fail the minigame.
+- Stop the cursor in the green zone in the new timing minigame for extra stat bonuses.
+- Fast Training skips the minigame and grants base gains without the additional bonus.
+- Training descriptions explain how each stat helps your Digimon.
+
+### Menus, loading, and saving
+
+- Improve loading and transitions when entering and leaving menus.
+- Saving/loading reductions from around 15–20 seconds to under 5 seconds have been reported. Results vary by setup; timing measurement in DuckStation remains pending for this r15 build.
+- Remove redundant location screens after battles, after leaving the save menu, and when returning from the full Start menu to the same map. Preserve labels when changing maps.
+- Start-menu saves display the correct location instead of Asuka Inn.
+- Battle menus remember previous selections, including Techniques instead of resetting to Attack.
+- Fix the map glitch when pressing Square during exploration.
+
+### Digivolutions and battles
+
+- Add the first experimental custom Digivolution line for Agumon, with battle camera scenes and 3D battle portraits. Development continues; stats and abilities may contain inconsistencies.
+- Add a DigiLab Digivolution routes interface showing requirements.
+- Display the active Digivolution name in battle instead of the Rookie name.
+- Customize technique order per Digimon/Digivolution: open Techniques in battle, press Select, move with Up/Down or L1/R1, and confirm with X or Select.
+- Fix Picking Claw and Snapping Claw when an enemy is KO'd and improve their descriptions.
+- Display actual technique power values.
+- Show a Share EXP activation notification after defeating Leader Seiryu.
+
+### New items
+
+All 15 test items cost **1 BIT** at the initial Gargomon shop and the first item shop. English names below are descriptive translations.
+
+- **Lure Disk:** encounters ×1.25 for 300 steps.
+- **Frenzy Disk:** encounters ×3 for 300 steps.
+- **Repellent Disk:** encounters ×0.5 for 300 steps.
+- **Stealth Disk:** no random encounters for 300 steps.
+- **Lure Ring:** encounters ×1.25 while equipped.
+- **Repellent Ring:** encounters ×0.5 while equipped.
+- **DV Adapter:** +20% DV EXP for the form used in battle.
+- **Apprentice Ring:** +15% Share EXP for the wearer; does not stack with EXP Adapter.
+- **Analysis Disk:** reveal enemy resistances and stealable-item availability for 5 battles. Analysis becomes permanent after defeating Byakko. L1/R1 changes pages; Select shows/hides analysis from main battle commands.
+- **Reserve Ring:** restore 10% of maximum MP after winning a battle.
+- **Risk Ring:** +15% damage dealt and received.
+- **Tenacity Ring:** survive a lethal hit with 1 HP once per battle, provided HP was above 50% before the hit.
+- **Three MP recovery consumables:** restore 25%, 50%, or 100% of maximum MP in exploration or battle.
+- Notify when encounter effects expire and when battle item bonuses apply.
+
+### Visuals and fixes
+
+- Restore light-blue borders for Flawe's walkthrough and the exploration Quest Log.
+- Make shadows transparent instead of solid black circles.
+- Correct battle reward text from “1IT”/“1EXP” to “BIT”/“EXP”.
+
+### Languages and compatibility
+
+All changes cover English, Spanish, French, German, and Italian. Gameplay testing has only been carried out in English and Spanish. Added text in other languages uses a text translation tool and may contain wording, spelling, or grammatical errors.
+
+Apply `dw2003-harmony-betav1.bps` directly to the original unmodified PAL BIN. This is the supplied October 7 r15 build, renamed without changing the patch bytes. Manifest and draft retain the original internal name for provenance.
+
+Back up memory cards. Restart from boot; use memory-card saves instead of older save states. KIT2 saves migrate to KIT3 on loading and saving. KIT3 saves require r15 or later; physical memory-card file size is unchanged. Full emulator playthrough and visual validation remain pending. Automated checks do not establish bug-free gameplay.
+
+### Next Steps
+
+Rework Intelligence/Wisdom-focused Digimon and techniques, supported by the newly implemented MP recovery disks and MP recovery ring. Develop custom Digivolution lines for the remaining Rookies and further rebalance Digivolution stats and techniques to make more team compositions and playstyles rewarding.
+
+### Related projects
+
+Harmony complements the [DS Companion for Android](https://github.com/rsigristc/DW3-DS-Android). See the [first beta announcement](https://www.reddit.com/r/DigimonWorld/comments/1wzc6e0/digimon_world_2003_qol_new_systems_mod_for_psx/) for the original feature overview.
+
+Bug reports, balance feedback, and translation corrections are welcome through [GitHub Issues](https://github.com/rsigristc/dw2003-qol-patch/issues). Include patch version, language, emulator/hardware, reproduction steps, and whether you started a new game or loaded a save.
+
+## Features carried forward from the first beta
 
 ### Battle and progression
 
@@ -88,7 +162,7 @@ The JSON manifest records build metadata and hashes. The draft JSON records the 
 
 ## Release notes and limitations
 
-This release packages the **October 6, 2026 GPU depth fix** build identified by the supplied manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
+This second beta packages the supplied **October 7, 2026 r15 menu-analysis build**, renamed as `dw2003-harmony-betav1.bps` and identified by its manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
 
 - Flawe's walkthrough covers the main story, not side quests or postgame guidance.
 - Flawe's upstream notes warn that traveling outside the normal postgame area can leave NPCs absent; entering underground or underwater areas there can crash the game. These routes are not declared fixed by this release.

@@ -1,0 +1,1016 @@
+{
+  "format": "BPS",
+  "source": {
+    "sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+    "crc32": "007df18e",
+    "size": 692146560
+  },
+  "target": {
+    "sha256": "2b896a24dcec4d47e31dd04405e72bd38640dc9cc66bbf113a8da17ba1e920fb",
+    "crc32": "59c3ce5b",
+    "size": 694863120
+  },
+  "changed_bytes": 3017075,
+  "patch_size": 3158821,
+  "patch_sha256": "9e816a8e2c40fb85eb161f6f5e25fe48f08a02b8925fa5316cc939a93cb6a8c6",
+  "metadata": {
+    "schema": "ddw3-mod-v1",
+    "name": "dw2003-flawe-item-kit-r15-menu-analysis-20261007",
+    "base_sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+    "edits": [
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_combined"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_guide_localized"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "flawe_levelup_restore"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "initial_pack_customizer_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "battle_ui_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "progress_ui_plus"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "item_kit"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "ntsc60"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fixed_field_moves"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "improved_hp_proxy"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "uncapped_dv_exp"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_intro"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "postgame_no_epics"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_baronmon"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "fast_admin_center"
+      },
+      {
+        "kind": "builtin_mod",
+        "id": "skip_folder_bag"
+      }
+    ],
+    "files": [
+      {
+        "file": "virtual disc",
+        "description": "Flawe’s Mod 2.0",
+        "target_size": 692489952
+      },
+      {
+        "description": "Flawe guide: five PAL languages",
+        "target_size": 692628720,
+        "files": [
+          {
+            "locale": "eng",
+            "entries": 468,
+            "unique_texts": 327,
+            "translated_unique": 282,
+            "size": 22910,
+            "sha256": "3936c445e34a119e3abac50e1ab3fc060e64cef5424b68131d684f1e856b77e6",
+            "file_id": 178,
+            "lba": 294426,
+            "file": "ESGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "fra",
+            "entries": 468,
+            "unique_texts": 327,
+            "translated_unique": 282,
+            "size": 22898,
+            "sha256": "0ab6ac589ea0a7e022a672a3201ac7a573719dc2071801938974a9d5e3dd5818",
+            "file_id": 179,
+            "lba": 294438,
+            "file": "FSGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "ita",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 22734,
+            "sha256": "2d8882f0852fe9eac29ae7de94a17893ba44126ad8e8430486bfa3a297f95857",
+            "file_id": 180,
+            "lba": 294450,
+            "file": "ISGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "ger",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 22287,
+            "sha256": "02614539a4e3df01264e6bb00e11f8c00ff056dfc91e6862a4c74b173d141d30",
+            "file_id": 181,
+            "lba": 294462,
+            "file": "DSGUIDE.BIN",
+            "original_menu_preserved": true
+          },
+          {
+            "locale": "spn",
+            "entries": 468,
+            "unique_texts": 326,
+            "translated_unique": 282,
+            "size": 23175,
+            "sha256": "4508eaba24c1cd88e7ebdb0d1aa9eabb619f8b5f6c7e42753ccf7544f8fc86d7",
+            "file_id": 182,
+            "lba": 294473,
+            "file": "SSGUIDE.BIN",
+            "original_menu_preserved": true
+          }
+        ]
+      },
+      {
+        "description": "Initial Pack Customizer: A/B/C + D",
+        "files": [
+          {
+            "file": "AAA/PRO/STPLNMET.PRO",
+            "alias": "STPACKD.PRO",
+            "file_id": 518,
+            "lba": 294485,
+            "size": 33968,
+            "sha256": "0ccb202428bf8319e24329f5c1f78cbcb75bad7b79ef628d1504e09b988e852f"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESNAMEET.BIN",
+            "alias": "ESCPACK.BIN",
+            "file_id": 143,
+            "lba": 294502,
+            "size": 1326,
+            "sha256": "420b12f0972cdb3c58bc5f7a6a5f77ecc69170e8863ae2d3c6a2adb336ccfce9"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSNAMEET.BIN",
+            "alias": "FSCPACK.BIN",
+            "file_id": 144,
+            "lba": 294503,
+            "size": 1393,
+            "sha256": "8b58b1fa4203ff3e05efbe06f555d02d7324c5f8111c753a17050ca620b2a695"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISNAMEET.BIN",
+            "alias": "ISCPACK.BIN",
+            "file_id": 145,
+            "lba": 294504,
+            "size": 1297,
+            "sha256": "8e87458efadd73e0f26181a13904c1950e7ce70d1de054bd28ebc8c6a5264f4b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSNAMEET.BIN",
+            "alias": "DSCPACK.BIN",
+            "file_id": 146,
+            "lba": 294505,
+            "size": 1314,
+            "sha256": "3b197b4d519c4dbc3630544d5a056ba9dcdc1ba4af4a89738ab7632e27957ef2"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSNAMEET.BIN",
+            "alias": "SSCPACK.BIN",
+            "file_id": 147,
+            "lba": 294506,
+            "size": 1361,
+            "sha256": "c9f0c24a73248495cb36eec6ee87fe026f59c85efb0c4433d5779bacb30accb6"
+          },
+          {
+            "file": "AAA/PRO/WSTAG212.PRO",
+            "alias": null,
+            "file_id": 536,
+            "lba": 294507,
+            "size": 14304,
+            "sha256": "17b1813996c10e822fd53f7f587d7f250d710b4db13d92488529d0495af2efeb"
+          }
+        ],
+        "target_size": 692696928,
+        "original_packs_preserved": true,
+        "custom_choices": 8,
+        "custom_arrival": true
+      },
+      {
+        "description": "Battle UI Plus: HP, MP, power and attribute",
+        "files": [
+          {
+            "file": "AAA/PRO/FIGHTSTG.PRO",
+            "alias": "FIGHTUI.PRO",
+            "file_id": 359,
+            "lba": 294514,
+            "size": 174016,
+            "sha256": "e3cd1777ed806cff18e3a8a5b7a89a1d1dfbe43dcf34369a3d64ddb275ddd6df"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESMFIGHT.BIN",
+            "alias": "ESBTLUI.BIN",
+            "file_id": 129,
+            "lba": 294599,
+            "size": 2550,
+            "sha256": "946b70487707b92fca420fabd8d0def63893b013e85eb8e85b388ad74dcedfd0"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSMFIGHT.BIN",
+            "alias": "FSBTLUI.BIN",
+            "file_id": 130,
+            "lba": 294601,
+            "size": 2959,
+            "sha256": "ad648986938a9653c543f9c3a133473a378c4ee01187fb30125fb62a40ea2e8b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISMFIGHT.BIN",
+            "alias": "ISBTLUI.BIN",
+            "file_id": 131,
+            "lba": 294603,
+            "size": 2899,
+            "sha256": "7272bf2b058b4e384fea9f367368ad2319c6a0df2cd231d3274c8334ea203a9b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSMFIGHT.BIN",
+            "alias": "DSBTLUI.BIN",
+            "file_id": 132,
+            "lba": 294605,
+            "size": 2745,
+            "sha256": "7f5bb0e8cbf4583ae9efa9d301eaed34e84e6afff2dcb3a416be5deb8c7d6121"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSMFIGHT.BIN",
+            "alias": "SSBTLUI.BIN",
+            "file_id": 133,
+            "lba": 294607,
+            "size": 3020,
+            "sha256": "d7f95a6632e12bc99a6b5a6636327ca3af7c97c83796b4b2dbaff8c064265b7c"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESSKLINF.BIN",
+            "alias": "ESSTL.BIN",
+            "file_id": 157,
+            "lba": 294609,
+            "size": 6361,
+            "sha256": "c52e9b414ed59202df9114deee8181a0d7e5fda84b0b8a40853481581675c1a1"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSSKLINF.BIN",
+            "alias": "FSSTL.BIN",
+            "file_id": 158,
+            "lba": 294613,
+            "size": 6650,
+            "sha256": "3392ba867978af293e66b2f1d009bb1d774908862a279cbac120f42c129455d5"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISSKLINF.BIN",
+            "alias": "ISSTL.BIN",
+            "file_id": 159,
+            "lba": 294617,
+            "size": 6665,
+            "sha256": "dd096690905c963489a256c099a77acd2ed8f595bef50f7130ee0f9c00517198"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSSKLINF.BIN",
+            "alias": "DSSTL.BIN",
+            "file_id": 160,
+            "lba": 294621,
+            "size": 6528,
+            "sha256": "9cc534632666c5b75a8b1223b1bab79c7611f691c73286cfa8b9bac935ecf56d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSSKLINF.BIN",
+            "alias": "SSSTL.BIN",
+            "file_id": 161,
+            "lba": 294625,
+            "size": 6684,
+            "sha256": "1322323a88dcd80e6f27e970efa06a847ce6a27638771cb2bbeccb09f71433b3"
+          }
+        ],
+        "target_size": 692967408,
+        "reserved_heap_start": 2148194304,
+        "reserved_bytes": 8192
+      },
+      {
+        "description": "Progress UI Plus: next EXP and DV EXP",
+        "files": [
+          {
+            "file": "AAA/PRO/FIELDSTG.PRO",
+            "file_id": 358,
+            "lba": 294629,
+            "size": 125232,
+            "sha256": "6c24a32cb56bbae0e2702a64eb53db83ad3c8ecc03889ebe3a4cc413247ac751"
+          },
+          {
+            "file": "AAA/PRO/STGDGLAB.PRO",
+            "file_id": 492,
+            "lba": 294691,
+            "size": 64336,
+            "sha256": "375bf8edfcbff71135911c15af9215299cd0ebb326cb0c47b7d312992529d272"
+          },
+          {
+            "file": "AAA/PRO/STFGTREP.PRO",
+            "file_id": 465,
+            "lba": 294723,
+            "size": 30704,
+            "sha256": "a93c06cd71f81b44c256fca421d5fc907f63b898abb905a9134b0f40c1309452"
+          },
+          {
+            "file": "AAA/PRO/STSTATUS.PRO",
+            "file_id": 519,
+            "lba": 294738,
+            "size": 116112,
+            "sha256": "45ac0ca502357aee7ccfcb3d39a23aa73accac76e798b4083f653647b8188b0b"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M008TYRA.BIN",
+            "file_id": 663,
+            "lba": 294795,
+            "size": 51316,
+            "sha256": "d227cf0f76400581f645b72be3892292d42dfe479ad4178219ab761a97fb8ddf"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M140MTRN.BIN",
+            "file_id": 917,
+            "lba": 294821,
+            "size": 47796,
+            "sha256": "f651c292e50b0ca615ab31d92fa3bc50e02d4c85242f623e67b213ab7f5c7efc"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M124TIRS.BIN",
+            "file_id": 768,
+            "lba": 294845,
+            "size": 50956,
+            "sha256": "422ac6b1f9ea6b66d32990d8f191a2b5ba838adeee803c1d731b3187e0cb1d5d"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M115MUGE.BIN",
+            "file_id": 355,
+            "lba": 294870,
+            "size": 64876,
+            "sha256": "b170087388689d838389808c641b29d5e26a43fa06f10a82139baf067c50414a"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M034OGRE.BIN",
+            "file_id": 613,
+            "lba": 294902,
+            "size": 45784,
+            "sha256": "5daad22a0e15d20753c64c1c0472f41fffae1004e83d5875d8c79e8fc3902cba"
+          },
+          {
+            "file": "AAA/DAT/FIGHT/MODEL/M250KGET.BIN",
+            "file_id": 1819,
+            "lba": 294925,
+            "size": 60984,
+            "sha256": "7b7a14efe3355a2b0a3c76b6c122d142ef532d0c3e1fe6128dbbb293d4d60e28"
+          },
+          {
+            "file": "AAA/PRO/SMDLDATA.PRO",
+            "file_id": 460,
+            "lba": 294955,
+            "size": 46956,
+            "sha256": "a9a64d57f22e318de913431c92e3c9261459b91ce542be4263f39c7df307dc92"
+          },
+          {
+            "file": "AAA/DAT/DGLB/STDGLBCS.BIN",
+            "file_id": 709,
+            "lba": 294978,
+            "size": 7452,
+            "sha256": "7170c91c26cb205fd5821d8dd47b8955ca2ba4e2523ec61c664988cf57b33ec3"
+          },
+          {
+            "file": "AAA/DAT/DGLB/STDGLBTM.BIN",
+            "file_id": 710,
+            "lba": 294982,
+            "size": 108316,
+            "sha256": "55c40db814ef8f1b51a8490179dd8d39fe535ad2784599bf115c29572f3a7947"
+          },
+          {
+            "file": "AAA/PRO/STITSHOP.PRO",
+            "file_id": 517,
+            "lba": 295035,
+            "size": 45008,
+            "sha256": "93d83f866e5f98cd642f343ea1a9e36def12a73a59a2dbbd98763734d84a8449"
+          },
+          {
+            "file": "AAA/PRO/STGMCARD.PRO",
+            "file_id": 494,
+            "lba": 295057,
+            "size": 24256,
+            "sha256": "4a097a248ca8e23d7e719665ce91b491be5b1ea40f3b00b080d3700d081d9493"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESSHPNAM.BIN",
+            "file_id": 150,
+            "lba": 295069,
+            "size": 3999,
+            "sha256": "d3c7e391027f9f9ce79388d43153385cf1c814efa5635ec5f01493d31aeab16a"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESFGTRPT.BIN",
+            "file_id": 87,
+            "lba": 295071,
+            "size": 30388,
+            "sha256": "9932a2dc78cd3ecd3bdb9036f282bf0e8e826055509e95e63b5a9c9e02f99492"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSSHPNAM.BIN",
+            "file_id": 151,
+            "lba": 295086,
+            "size": 4243,
+            "sha256": "15c409577d4cad214b5d8950c3f056ce5cb001c8383663b6f9a86a3d1a4d1d17"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSFGTRPT.BIN",
+            "file_id": 88,
+            "lba": 295089,
+            "size": 30670,
+            "sha256": "e2a02ad308e7f99cbe7217528cf7a68c163ce318d75c5d5badd68283aedc9055"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISSHPNAM.BIN",
+            "file_id": 152,
+            "lba": 295104,
+            "size": 4369,
+            "sha256": "5843c27dc34064f6fe3c2e4af0bf032baafd4a97a1fbac21aacb017d259232cb"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISFGTRPT.BIN",
+            "file_id": 89,
+            "lba": 295107,
+            "size": 30458,
+            "sha256": "cbf69295580a08c190a13839bef0975634043900036d2c9c8c8d24b8b8ab29d6"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSSHPNAM.BIN",
+            "file_id": 153,
+            "lba": 295122,
+            "size": 3944,
+            "sha256": "a563900826c48606f741275caa11c53962177e11bd7d9cdbe38d1f30fee742ec"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSFGTRPT.BIN",
+            "file_id": 90,
+            "lba": 295124,
+            "size": 29080,
+            "sha256": "add4bec065964b9bb01f8bd1d29433af989b64b193f944f52d801bcfab0b9344"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSSHPNAM.BIN",
+            "file_id": 154,
+            "lba": 295139,
+            "size": 4430,
+            "sha256": "6821d05f2ef9887457783749911961a6eb21ce0bbe93d5a2b6d600b348094cff"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSFGTRPT.BIN",
+            "file_id": 91,
+            "lba": 295142,
+            "size": 31258,
+            "sha256": "207bd4bbb9afb3a7538d5066bbd6f3130f54a78ba5e943a004331d34ee20054e"
+          },
+          {
+            "file": "AAA/PRO/WSTAG420.PRO",
+            "file_id": 1260,
+            "lba": 295158,
+            "size": 8380,
+            "sha256": "15a312030ee597c9ba13226fed82a5cd8390f34c7b2a39a127a1877a80124757"
+          }
+        ],
+        "target_size": 694223376,
+        "agumon_resident": {
+          "base": 2148194304,
+          "size": 2768,
+          "sha256": "b8da841581a0e0d16ce36bf06d0c15ab0de522a6f2c9fdc8b4ab7c97546353e6",
+          "symbols": {
+            "CUSTOM_ackShareNotice": 2148194600,
+            "CUSTOM_agumonValue": 2148194796,
+            "CUSTOM_initResidentHeap": 2148194368,
+            "CUSTOM_agumonRule": 2148194740,
+            "CUSTOM_seiryuReward": 2148194452,
+            "CUSTOM_learnAgumon": 2148195024,
+            "CUSTOM_shareNoticePending": 2148194584,
+            "CUSTOM_getAgumonProfile": 2148194612
+          },
+          "source_sha256": "dbba02987cf06fa9ab602af1beed01186ffea740675bfb91641a63761f8acd37",
+          "original_overlay_sha256": "c2e8845fccab5f2e852c1025fac2ee4f548c6136b1a1b47e6c838ce7eb5f1ef9",
+          "source_base": 2148139008,
+          "bootstrap_base": 2148143104,
+          "bootstrap_size": 112,
+          "bootstrap_sha256": "1e4193d71818b75dfa56a946d24921dad025cad1c00f1b6ab674483449d23ee2"
+        },
+        "profile_hook": 2147562728
+      },
+      {
+        "description": "Inventario ampliado: discos, anillos y análisis",
+        "files": [
+          {
+            "file": "AAA/PRO/STSTATUS.PRO",
+            "file_id": 519,
+            "lba": 294738,
+            "size": 116112,
+            "sha256": "43fecebf374727a1371134dd64424f5334d9b9658a204d3778c1ccd82ff7137a"
+          },
+          {
+            "file": "AAA/PRO/STITSHOP.PRO",
+            "file_id": 517,
+            "lba": 295163,
+            "size": 45128,
+            "sha256": "f915a2e2c0ebdb1b6179de628b7c2c3cba020d9b513a94236c2e4b51f4833186"
+          },
+          {
+            "file": "AAA/PRO/STFGTREP.PRO",
+            "file_id": 465,
+            "lba": 294723,
+            "size": 30704,
+            "sha256": "dc4b62a88b6764ba88dd7f42021913fc9ac86031c0531373d2d28c9f8fd14dfe"
+          },
+          {
+            "file": "AAA/PRO/FIGHTSTG.PRO",
+            "file_id": 359,
+            "lba": 294514,
+            "size": 174016,
+            "sha256": "c9977085c2867545defeca7eb431598c646aa67fc2ab5ef3ea62bc704a7ee26f"
+          },
+          {
+            "file": "AAA/PRO/FIELDSTG.PRO",
+            "file_id": 358,
+            "lba": 294629,
+            "size": 125232,
+            "sha256": "7384cc4c6740b954a22eceeecebf797addf8ff5d81ba324e92048c6d091674c2"
+          },
+          {
+            "file": "AAA/PRO/STCRDSHP.PRO",
+            "file_id": 462,
+            "lba": 748,
+            "size": 41552,
+            "sha256": "e682ac4bd0576ee41a1c7307407b6d454ffa0fb2141b64121d6ad1c49cef173b"
+          },
+          {
+            "file": "AAA/PRO/CARDGAME.PRO",
+            "file_id": 353,
+            "lba": 486,
+            "size": 143664,
+            "sha256": "2e1b72638a285a7025219687919cbbed775dc0b397f6daa50e3082660f89a567"
+          },
+          {
+            "file": "AAA/PRO/WFIGHTMN.PRO",
+            "file_id": 520,
+            "lba": 953,
+            "size": 20680,
+            "sha256": "e34b6a69fbbe3abeeaf8e324b4a800c540441145a586761b031cc931902325c2"
+          },
+          {
+            "file": "AAA/PRO/STGMCARD.PRO",
+            "file_id": 494,
+            "lba": 295057,
+            "size": 24256,
+            "sha256": "2e47dee8b95732452cb35e2c63a5113f158a24ef0a9a5969851b2ec2f89a6fbd"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESSTATUS.BIN",
+            "file_id": 178,
+            "lba": 295186,
+            "size": 22910,
+            "sha256": "3936c445e34a119e3abac50e1ab3fc060e64cef5424b68131d684f1e856b77e6"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESITMNAM.BIN",
+            "file_id": 108,
+            "lba": 295198,
+            "size": 6966,
+            "sha256": "046287c3762d4dfc5b320f485e8cd1e316e178a376733ae8583943a4e66c6387"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESITMINF.BIN",
+            "file_id": 101,
+            "lba": 295202,
+            "size": 14827,
+            "sha256": "f185e4898540d35231ec1ffa6d7d2eeb209daf97e1df016bb659476bef130414"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESDIGNAM.BIN",
+            "file_id": 80,
+            "lba": 295210,
+            "size": 3872,
+            "sha256": "8d98cb2dd2a05bca288af1bef910c5cd0aa7f0e4f66ca9f9217143f4bbcedd97"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESDIGINF.BIN",
+            "file_id": 73,
+            "lba": 295212,
+            "size": 2111,
+            "sha256": "cdfab5e0afb9936856ad3ae32f97d8e66532a0e9f3876a04daf60a63e4b61ea8"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESSKLNAM.BIN",
+            "file_id": 164,
+            "lba": 295214,
+            "size": 5714,
+            "sha256": "8249f1881d39ac7e589326df4faed14d95d0693c479c34ef0db50731fc7ecf0b"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESSKLINF.BIN",
+            "file_id": 157,
+            "lba": 295217,
+            "size": 6361,
+            "sha256": "c52e9b414ed59202df9114deee8181a0d7e5fda84b0b8a40853481581675c1a1"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ENG/ESFGTRPT.BIN",
+            "file_id": 87,
+            "lba": 295221,
+            "size": 30388,
+            "sha256": "9932a2dc78cd3ecd3bdb9036f282bf0e8e826055509e95e63b5a9c9e02f99492"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSSTATUS.BIN",
+            "file_id": 179,
+            "lba": 295236,
+            "size": 22898,
+            "sha256": "0ab6ac589ea0a7e022a672a3201ac7a573719dc2071801938974a9d5e3dd5818"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSITMNAM.BIN",
+            "file_id": 109,
+            "lba": 295248,
+            "size": 7363,
+            "sha256": "e91be1649018bd0c7ef8df8e4c9b61c4037438388927c027e78fec641eb6b321"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSITMINF.BIN",
+            "file_id": 102,
+            "lba": 295252,
+            "size": 14722,
+            "sha256": "88662a078677e08a1f4864403c12ac0b3f31916da9fb2acd335db7a116081d3c"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSDIGNAM.BIN",
+            "file_id": 81,
+            "lba": 295260,
+            "size": 3872,
+            "sha256": "8b8e5e95be34b54fd116ceff5035024c82ddfa3e5e9a286eb8d12cbb0a3d2cd7"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSDIGINF.BIN",
+            "file_id": 74,
+            "lba": 295262,
+            "size": 2184,
+            "sha256": "1f9ec7545de7c9b52f2ced3d91877ca7e4181952084fdbe9d293a0cdeb2e6893"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSSKLNAM.BIN",
+            "file_id": 165,
+            "lba": 295264,
+            "size": 5714,
+            "sha256": "be1d3f20147893e348d233cab833145dd6595ec0a9c30909db4f58456c044c6d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSSKLINF.BIN",
+            "file_id": 158,
+            "lba": 295267,
+            "size": 6650,
+            "sha256": "3392ba867978af293e66b2f1d009bb1d774908862a279cbac120f42c129455d5"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/FRA/FSFGTRPT.BIN",
+            "file_id": 88,
+            "lba": 295271,
+            "size": 30665,
+            "sha256": "618d43bc73844877f65ebc1877e79344f3ae0494cedc3cafba3690bfbe695052"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISSTATUS.BIN",
+            "file_id": 180,
+            "lba": 295286,
+            "size": 22734,
+            "sha256": "2d8882f0852fe9eac29ae7de94a17893ba44126ad8e8430486bfa3a297f95857"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISITMNAM.BIN",
+            "file_id": 110,
+            "lba": 295298,
+            "size": 7283,
+            "sha256": "496e4a73d6eb5fde915fda94a3c558eed729a5cbb0ec02a480eb69718cef2ffd"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISITMINF.BIN",
+            "file_id": 103,
+            "lba": 295302,
+            "size": 15770,
+            "sha256": "e811426459e98d325778a345c6b76324236ff1d3ee6fec7ce765770545d8ba42"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISDIGNAM.BIN",
+            "file_id": 82,
+            "lba": 295310,
+            "size": 3872,
+            "sha256": "8b8e5e95be34b54fd116ceff5035024c82ddfa3e5e9a286eb8d12cbb0a3d2cd7"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISDIGINF.BIN",
+            "file_id": 75,
+            "lba": 295312,
+            "size": 2151,
+            "sha256": "ad1afe324c53e472abec8f7c8de4804cc5b7721cd4ab2531e0eab45d72594bfe"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISSKLNAM.BIN",
+            "file_id": 166,
+            "lba": 295314,
+            "size": 5714,
+            "sha256": "be1d3f20147893e348d233cab833145dd6595ec0a9c30909db4f58456c044c6d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISSKLINF.BIN",
+            "file_id": 159,
+            "lba": 295317,
+            "size": 6665,
+            "sha256": "dd096690905c963489a256c099a77acd2ed8f595bef50f7130ee0f9c00517198"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/ITA/ISFGTRPT.BIN",
+            "file_id": 89,
+            "lba": 295321,
+            "size": 30454,
+            "sha256": "8d1a51f9a0245ef1b659f0ddff444c0d5572cfc627b891bf6bb1e87f9c9d7bf1"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSSTATUS.BIN",
+            "file_id": 181,
+            "lba": 295336,
+            "size": 22287,
+            "sha256": "02614539a4e3df01264e6bb00e11f8c00ff056dfc91e6862a4c74b173d141d30"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSITMNAM.BIN",
+            "file_id": 111,
+            "lba": 295347,
+            "size": 6989,
+            "sha256": "f30877810ed092a0126ee4b06ad1c3b3da93ce46a693e1c91f1353eea7c9939f"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSITMINF.BIN",
+            "file_id": 104,
+            "lba": 295351,
+            "size": 13882,
+            "sha256": "59eea7bf92a4115f64f43bf8ee9b732761c17714775013bdc15e3ed97db579e9"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSDIGNAM.BIN",
+            "file_id": 83,
+            "lba": 295358,
+            "size": 3872,
+            "sha256": "8b8e5e95be34b54fd116ceff5035024c82ddfa3e5e9a286eb8d12cbb0a3d2cd7"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSDIGINF.BIN",
+            "file_id": 76,
+            "lba": 295360,
+            "size": 2083,
+            "sha256": "2063b7a3eb928bb0aebd8d63a02f7f5a0432a3dd99161c142f3c4a9d2ccb2242"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSSKLNAM.BIN",
+            "file_id": 167,
+            "lba": 295362,
+            "size": 5714,
+            "sha256": "be1d3f20147893e348d233cab833145dd6595ec0a9c30909db4f58456c044c6d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSSKLINF.BIN",
+            "file_id": 160,
+            "lba": 295365,
+            "size": 6528,
+            "sha256": "9cc534632666c5b75a8b1223b1bab79c7611f691c73286cfa8b9bac935ecf56d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/GER/DSFGTRPT.BIN",
+            "file_id": 90,
+            "lba": 295369,
+            "size": 29082,
+            "sha256": "a4fbd2f397dd23f94bbd9877f80c96e7bce237bce4ea71c848c3b77f28bf8bfa"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSSTATUS.BIN",
+            "file_id": 182,
+            "lba": 295384,
+            "size": 23175,
+            "sha256": "4508eaba24c1cd88e7ebdb0d1aa9eabb619f8b5f6c7e42753ccf7544f8fc86d7"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSITMNAM.BIN",
+            "file_id": 112,
+            "lba": 295396,
+            "size": 7542,
+            "sha256": "9e7603a22459b6b05840ea9f376f5434c1b286786dddf3af5c13f3053956005d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSITMINF.BIN",
+            "file_id": 105,
+            "lba": 295400,
+            "size": 15903,
+            "sha256": "cd62946de68f844ea0818565f1a13bca3309fedaf1fbb86f637501bb96f1951e"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSDIGNAM.BIN",
+            "file_id": 84,
+            "lba": 295408,
+            "size": 3872,
+            "sha256": "8b8e5e95be34b54fd116ceff5035024c82ddfa3e5e9a286eb8d12cbb0a3d2cd7"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSDIGINF.BIN",
+            "file_id": 77,
+            "lba": 295410,
+            "size": 2257,
+            "sha256": "d53f65f87a27395f0bde3aa5f8f8d5b91ae75cae4f8d6f02f4ecd51016e7401f"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSSKLNAM.BIN",
+            "file_id": 168,
+            "lba": 295412,
+            "size": 5714,
+            "sha256": "be1d3f20147893e348d233cab833145dd6595ec0a9c30909db4f58456c044c6d"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSSKLINF.BIN",
+            "file_id": 161,
+            "lba": 295415,
+            "size": 6684,
+            "sha256": "1322323a88dcd80e6f27e970efa06a847ce6a27638771cb2bbeccb09f71433b3"
+          },
+          {
+            "file": "AAA/DAT/COUNTRY/SPN/SSFGTRPT.BIN",
+            "file_id": 91,
+            "lba": 295419,
+            "size": 31258,
+            "sha256": "207bd4bbb9afb3a7538d5066bbd6f3130f54a78ba5e943a004331d34ee20054e"
+          }
+        ],
+        "target_size": 694863120,
+        "save_schema": "KIT3",
+        "inventory_slots": 418,
+        "resident_base": 2148198400,
+        "resident_size": 34292,
+        "heap_floor": 2148233216,
+        "inventory_bridges": 104,
+        "exe_sha256": "96c1fa09439fa6528d28afc8f03ba3ec4bd5d02da3f2450cff5137fb483471cb"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 608000,
+        "size": 24,
+        "description": "Flawe: HP/MP al subir de nivel"
+      },
+      {
+        "file": "AAA/PRO/STFGTREP.PRO",
+        "offset": 13876,
+        "size": 4,
+        "description": "Flawe: HP/MP al subir de nivel"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 316588,
+        "size": 8,
+        "description": "NTSC 60 Hz"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 56164,
+        "size": 1,
+        "description": "Fixed Field Moves"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 117852,
+        "size": 27,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "AAA/PRO/FIGHTSTG.PRO",
+        "offset": 119036,
+        "size": 27,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 203638,
+        "size": 1,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 203650,
+        "size": 1,
+        "description": "Improved HP Proxy"
+      },
+      {
+        "file": "AAA/PRO/STFGTREP.PRO",
+        "offset": 15744,
+        "size": 56,
+        "description": "Uncapped Digivolution EXP"
+      },
+      {
+        "file": "AAA/PRO/STDWTITL.PRO",
+        "offset": 15424,
+        "size": 2,
+        "description": "Fast intro"
+      },
+      {
+        "file": "AAA/PRO/STPLNMET.PRO",
+        "offset": 21960,
+        "size": 1,
+        "description": "Fast intro"
+      },
+      {
+        "file": "AAA/PRO/WSTAG200.PRO",
+        "offset": 64,
+        "size": 1,
+        "description": "Fast intro"
+      },
+      {
+        "file": "SLES_039.36",
+        "offset": 24228,
+        "size": 8,
+        "description": "Postgame fights without epic weapons"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3724,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3736,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3764,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG375.PRO",
+        "offset": 3780,
+        "size": 3,
+        "description": "TNT Chip without Phoenix Bay"
+      },
+      {
+        "file": "AAA/PRO/WSTAG325.PRO",
+        "offset": 2336,
+        "size": 2,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG325.PRO",
+        "offset": 2344,
+        "size": 2,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG620.PRO",
+        "offset": 1504,
+        "size": 1,
+        "description": "Admin Center after A.o.A. Ambusher"
+      },
+      {
+        "file": "AAA/PRO/WSTAG270.PRO",
+        "offset": 4204,
+        "size": 1,
+        "description": "Skip Folder Bag cutscene"
+      }
+    ],
+    "engine": "verified recipes; virtual disc layout; additional fields checked for conflicts; EDC/ECC regenerated"
+  },
+  "original_unchanged": true,
+  "rom_output_created": false
+}
