@@ -8,6 +8,20 @@ A community mod compilation for **Digimon World 2003 (Europe / PAL, SLES-03936)*
 
 [Download the release](https://github.com/rsigristc/dw2003-qol-patch/releases/latest) · [Support Rodrigo on Ko-fi](https://ko-fi.com/rodrigosigrist)
 
+## October 10, 2026 — Beta v1.0 download corrected to r31
+
+The initial Harmony Beta v1.0 download accidentally contained the older r15 build. It has been replaced with **dw2003-harmony-r31-20261009**, keeping the download name **dw2003-harmony-betav1.bps**. If you downloaded the initial release, download the patch again and apply it to your original unmodified PAL BIN, not to the previously patched image.
+
+This cumulative r31 build includes the r29 training improvements and the clean title logo. It also moves the language-selection logo panel up 20 pixels so Harmony fits inside the 224-line gameplay display area. Visual testing in DuckStation remains pending according to the supplied build notes.
+
+Restart from boot and load a memory-card save; do not use save states from earlier builds. Back up memory cards before changing builds.
+
+- BPS SHA-256: `b71731332a72ed2a9da1b3c00aeb267d9cdeef76d6040b76981fbd5a3d141343`.
+- BPS size: **3,438,321 bytes**.
+- Patched BIN SHA-256: `ffa0feaf7de575afc8295760f54af4846c767cfcabf196feae919c1609e3135d`.
+
+The patch is renamed without changing its bytes. The matching r31 manifest replaces the r15 manifest; the obsolete r15 draft recipe is removed.
+
 ## How to patch
 
 1. Back up your original disc dump and memory cards.
@@ -34,12 +48,12 @@ Get-FileHash -Algorithm SHA256 -LiteralPath 'Digimon World 2003 (Europe).bin'
 
 ### Expected patched BIN
 
-- Size: **694,863,120 bytes**.
-- CRC32: `59c3ce5b`.
-- SHA-256: `2b896a24dcec4d47e31dd04405e72bd38640dc9cc66bbf113a8da17ba1e920fb`.
-- BPS SHA-256: `9e816a8e2c40fb85eb161f6f5e25fe48f08a02b8925fa5316cc939a93cb6a8c6`.
+- Size: **695,086,560 bytes**.
+- CRC32: `69071056`.
+- SHA-256: `ffa0feaf7de575afc8295760f54af4846c767cfcabf196feae919c1609e3135d`.
+- BPS SHA-256: `b71731332a72ed2a9da1b3c00aeb267d9cdeef76d6040b76981fbd5a3d141343`.
 
-The JSON manifest records build metadata and hashes. The draft JSON records the build recipe; neither JSON file is a patcher input.
+The JSON manifest records build metadata and hashes; it is not a patcher input.
 
 ## Second Beta v1.0 — Digimon World 2003: Harmony
 
@@ -100,7 +114,7 @@ All 15 test items cost **1 BIT** at the initial Gargomon shop and the first item
 
 All changes cover English, Spanish, French, German, and Italian. Gameplay testing has only been carried out in English and Spanish. Added text in other languages uses a text translation tool and may contain wording, spelling, or grammatical errors.
 
-Apply `dw2003-harmony-betav1.bps` directly to the original unmodified PAL BIN. This is the supplied October 7 r15 build, renamed without changing the patch bytes. Manifest and draft retain the original internal name for provenance.
+Apply `dw2003-harmony-betav1.bps` directly to the original unmodified PAL BIN. This is the supplied October 9 r31 cumulative build, renamed without changing the patch bytes. Its matching manifest records provenance and hashes.
 
 Back up memory cards. Restart from boot; use memory-card saves instead of older save states. KIT2 saves migrate to KIT3 on loading and saving. KIT3 saves require r15 or later; physical memory-card file size is unchanged. Full emulator playthrough and visual validation remain pending. Automated checks do not establish bug-free gameplay.
 
@@ -162,7 +176,7 @@ Bug reports, balance feedback, and translation corrections are welcome through [
 
 ## Release notes and limitations
 
-This second beta packages the supplied **October 7, 2026 r15 menu-analysis build**, renamed as `dw2003-harmony-betav1.bps` and identified by its manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
+This corrected second beta packages the supplied **October 9, 2026 Harmony r31 build**, renamed as `dw2003-harmony-betav1.bps` and identified by its manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
 
 - Flawe's walkthrough covers the main story, not side quests or postgame guidance.
 - Flawe's upstream notes warn that traveling outside the normal postgame area can leave NPCs absent; entering underground or underwater areas there can crash the game. These routes are not declared fixed by this release.
