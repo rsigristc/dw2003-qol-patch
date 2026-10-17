@@ -1,0 +1,45 @@
+{
+  "format": "BPS",
+  "source": {
+    "sha256": "fb70dc9a995aed628cf515cabc87c7b14e5142559076ec394dfe793ec3e26a04",
+    "crc32": "007df18e",
+    "size": 692146560
+  },
+  "target": {
+    "sha256": "0341e7005dbb24b11f6a1868971941c641c0f17e897d9dc9a0f37157b0dfb735",
+    "crc32": "df3fe9fe",
+    "size": 698866224
+  },
+  "changed_bytes": 7101866,
+  "patch_size": 7236061,
+  "patch_sha256": "80e32238105442ebc80795553cee150a53084e835eb1d7d7654eb5c93cb33f5c",
+  "metadata": {
+    "schema": "dw2003-harmony-branding-v1",
+    "name": "Digimon World 2003: Harmony",
+    "files": [
+      {
+        "file": "AAA/DAT/SCREEN/TLOGOPAL.BIN",
+        "lba": 21655,
+        "file_id": 2381,
+        "before_size": 43956,
+        "size": 44596,
+        "capacity": 45056,
+        "sha256": "3f62f1f3f597d763542caf0edca49b71b9f0a1bbb277016aa567f292eb5ee249"
+      },
+      {
+        "file": "AAA/DAT/COUNTRY/CNTSELWN.BIN",
+        "lba": 2290,
+        "file_id": 2211,
+        "before_size": 16416,
+        "size": 16968,
+        "capacity": 18432,
+        "sha256": "042aee1f9ec32b7843aefe4ed9b380410ee5f4d460cd2863dee73badf59719e8"
+      }
+    ],
+    "base_patch": "build\\mods\\dw2003-flawe-item-kit-r48-imperial-techs-20261016.bps",
+    "opening_movies_changed": false,
+    "code_changed": false
+  },
+  "original_unchanged": true,
+  "rom_output_created": false
+}

@@ -8,24 +8,23 @@ A community mod compilation for **Digimon World 2003 (Europe / PAL, SLES-03936)*
 
 [Download the release](https://github.com/rsigristc/dw2003-qol-patch/releases/latest) · [Support Rodrigo on Ko-fi](https://ko-fi.com/rodrigosigrist)
 
-## October 10, 2026 — Beta v1.0 download corrected to r31
+## Beta 1.5 — r48 (October 16, 2026)
 
-The initial Harmony Beta v1.0 download accidentally contained the older r15 build. It has been replaced with **dw2003-harmony-r31-20261009**, keeping the download name **dw2003-harmony-betav1.bps**. If you downloaded the initial release, download the patch again and apply it to your original unmodified PAL BIN, not to the previously patched image.
+[Download Beta 1.5](https://github.com/rsigristc/dw2003-qol-patch/releases/tag/harmony-beta1.5) · [Updating from Beta 1.0 / Actualizar desde Beta 1.0](UPGRADING.md) · [Full changelog](CHANGELOG.md) · [Cambios en español](releases/beta-1.5/CHANGELOG.es.md)
 
-This cumulative r31 build includes the r29 training improvements and the clean title logo. It also moves the language-selection logo panel up 20 pixels so Harmony fits inside the 224-line gameplay display area. Visual testing in DuckStation remains pending according to the supplied build notes.
+- Evolution trees for all eight Rookies, with 103 distinct evolution species across 109 assignments.
+- Shared unlocks for Omnimon, Raidenmon, and Apocalymon, plus revised stat, charisma, resistance, and DV requirements.
+- Stage-based stat/technique balance, earlier Special finishers, and consistent DV EXP curves.
+- Improved Omega Blade and own-form elemental coverage for Imperialdramon Fighter and Paladin Mode.
+- HP adjustments for selected late-game bosses, preserving weaknesses and excluded story encounters.
+- Fixes for contradictory inventory/quest checks, item-sale freezes, and DigiLab portrait overlap.
 
-Restart from boot and load a memory-card save; do not use save states from earlier builds. Back up memory cards before changing builds.
-
-- BPS SHA-256: `b71731332a72ed2a9da1b3c00aeb267d9cdeef76d6040b76981fbd5a3d141343`.
-- BPS size: **3,438,321 bytes**.
-- Patched BIN SHA-256: `ffa0feaf7de575afc8295760f54af4846c767cfcabf196feae919c1609e3135d`.
-
-The patch is renamed without changing its bytes. The matching r31 manifest replaces the r15 manifest; the obsolete r15 draft recipe is removed.
+This cumulative build supersedes the corrected Beta 1.0 r31 download. The older release remains available for reference. Apply the new patch to your original PAL BIN and load a memory-card save after a fresh boot. **Do not patch an already modified image or resume an old save state.**
 
 ## How to patch
 
 1. Back up your original disc dump and memory cards.
-2. Download `dw2003-harmony-betav1.bps` from Releases or the `patches/` folder.
+2. Download `dw2003-harmony-beta1.5.bps` from Releases or the `patches/` folder.
 3. Verify your **unmodified European BIN** matches the source below. Apply this complete patch directly to the original BIN, with no earlier mods applied. Do not patch the CUE file, a compressed image, or an already patched BIN.
 4. Open [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/), select your original BIN as the ROM file, and the BPS as the patch file. Apply the patch with checksum verification enabled and save the output to a new file. Large disc images may require a desktop BPS-compatible patcher if your browser runs out of memory.
 5. Keep your original CUE and update its `FILE` entry to reference the new BIN filename, preserving its track definitions. Load that CUE in your emulator.
@@ -48,16 +47,16 @@ Get-FileHash -Algorithm SHA256 -LiteralPath 'Digimon World 2003 (Europe).bin'
 
 ### Expected patched BIN
 
-- Size: **695,086,560 bytes**.
-- CRC32: `69071056`.
-- SHA-256: `ffa0feaf7de575afc8295760f54af4846c767cfcabf196feae919c1609e3135d`.
-- BPS SHA-256: `b71731332a72ed2a9da1b3c00aeb267d9cdeef76d6040b76981fbd5a3d141343`.
+- Size: **698,866,224 bytes**.
+- CRC32: `df3fe9fe`.
+- SHA-256: `0341e7005dbb24b11f6a1868971941c641c0f17e897d9dc9a0f37157b0dfb735`.
+- BPS SHA-256: `80e32238105442ebc80795553cee150a53084e835eb1d7d7654eb5c93cb33f5c`.
 
 The JSON manifest records build metadata and hashes; it is not a patcher input.
 
-## Second Beta v1.0 — Digimon World 2003: Harmony
+## Included systems
 
-The project is now **Digimon World 2003: Harmony**. Work continues to make the game more enjoyable and approachable for everyone, with training without RNG, faster loading and saving, new items, improved systems, and fixes from the previous beta.
+Beta 1.5 retains the training, interface, item, and quality-of-life systems from Beta 1.0 alongside the new evolution and balance work. See the changelog for version-specific changes.
 
 ### Training rebuilt
 
@@ -69,7 +68,7 @@ The project is now **Digimon World 2003: Harmony**. Work continues to make the g
 ### Menus, loading, and saving
 
 - Improve loading and transitions when entering and leaving menus.
-- Saving/loading reductions from around 15–20 seconds to under 5 seconds have been reported. Results vary by setup; timing measurement in DuckStation remains pending for this r15 build.
+- Reduce save/load animation delays and improve I/O scheduling. Actual timing varies by emulator, hardware, and settings.
 - Remove redundant location screens after battles, after leaving the save menu, and when returning from the full Start menu to the same map. Preserve labels when changing maps.
 - Start-menu saves display the correct location instead of Asuka Inn.
 - Battle menus remember previous selections, including Techniques instead of resetting to Attack.
@@ -77,7 +76,7 @@ The project is now **Digimon World 2003: Harmony**. Work continues to make the g
 
 ### Digivolutions and battles
 
-- Add the first experimental custom Digivolution line for Agumon, with battle camera scenes and 3D battle portraits. Development continues; stats and abilities may contain inconsistencies.
+- Custom evolution trees for all eight Rookies, with shared branch nodes, ally profiles, and battle/DigiLab portraits. Full visual and campaign testing remains pending.
 - Add a DigiLab Digivolution routes interface showing requirements.
 - Display the active Digivolution name in battle instead of the Rookie name.
 - Customize technique order per Digimon/Digivolution: open Techniques in battle, press Select, move with Up/Down or L1/R1, and confirm with X or Select.
@@ -114,13 +113,13 @@ All 15 test items cost **1 BIT** at the initial Gargomon shop and the first item
 
 All changes cover English, Spanish, French, German, and Italian. Gameplay testing has only been carried out in English and Spanish. Added text in other languages uses a text translation tool and may contain wording, spelling, or grammatical errors.
 
-Apply `dw2003-harmony-betav1.bps` directly to the original unmodified PAL BIN. This is the supplied October 9 r31 cumulative build, renamed without changing the patch bytes. Its matching manifest records provenance and hashes.
+Apply `dw2003-harmony-beta1.5.bps` directly to the original unmodified PAL BIN. This is the cumulative r48 build, renamed for Beta 1.5 without changing its patch bytes. Its matching manifest records provenance and hashes. See [UPGRADING.md](UPGRADING.md) for save migration details.
 
 Back up memory cards. Restart from boot; use memory-card saves instead of older save states. KIT2 saves migrate to KIT3 on loading and saving. KIT3 saves require r15 or later; physical memory-card file size is unchanged. Full emulator playthrough and visual validation remain pending. Automated checks do not establish bug-free gameplay.
 
-### Next Steps
+### Balance feedback
 
-Rework Intelligence/Wisdom-focused Digimon and techniques, supported by the newly implemented MP recovery disks and MP recovery ring. Develop custom Digivolution lines for the remaining Rookies and further rebalance Digivolution stats and techniques to make more team compositions and playstyles rewarding.
+Feedback on the eight evolution trees, late-game difficulty, MP economy, translations, and visual issues is welcome. Include the build and reproduction details so reports can be checked against Beta 1.5.
 
 ### Related projects
 
@@ -176,8 +175,9 @@ Bug reports, balance feedback, and translation corrections are welcome through [
 
 ## Release notes and limitations
 
-This corrected second beta packages the supplied **October 9, 2026 Harmony r31 build**, renamed as `dw2003-harmony-betav1.bps` and identified by its manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
+Beta 1.5 packages the **October 16, 2026 Harmony r48 build**, renamed as `dw2003-harmony-beta1.5.bps` without changing its bytes and identified by its manifest. The feature list above documents the intended mod behavior; it is not a claim of exhaustive hardware or emulator playtesting.
 
+- The Agumon level-up freeze reported in Beta 1.0 remains unconfirmed; it is not claimed fixed. Existing damaged quest states and duplicate key items are not automatically repaired.
 - Flawe's walkthrough covers the main story, not side quests or postgame guidance.
 - Flawe's upstream notes warn that traveling outside the normal postgame area can leave NPCs absent; entering underground or underwater areas there can crash the game. These routes are not declared fixed by this release.
 - Back up memory cards when changing builds. For the first test of Start-menu saving, use a free slot and verify that the save loads after restarting.
